@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\program\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\game1\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{167476D9-58DD-4ADA-B47C-1B5FE83548D0}|program.vcxproj|C:\\Users\\User\\source\\repos\\program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{167476D9-58DD-4ADA-B47C-1B5FE83548D0}|program.vcxproj|C:\\Users\\User\\Desktop\\game1\\program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{167476D9-58DD-4ADA-B47C-1B5FE83548D0}|program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DB9EBD-5E2C-410C-A11E-06E96122A824}|..\\Class11th(Compile)\\Class11th(Compile).vcxproj|C:\\Users\\User\\Desktop\\game1\\Class11th(Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game1\\Class11th(Compile)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class11th(Compile)\\Source.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game1\\Class11th(Compile)\\Source.c",
+              "RelativeToolTip": "..\\Class11th(Compile)\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-20T04:31:26.3Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\program\\source.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game1\\program\\source.c",
               "RelativeDocumentMoniker": "source.c",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\program\\source.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game1\\program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:18.954Z",
               "EditorCaption": ""
