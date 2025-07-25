@@ -1,0 +1,19 @@
+﻿  Sorece.c
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(58,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(58,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(62,9): error C2374: 'variable': 재정의. 여러 번 초기화했습니다.
+      C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(44,9):
+      'variable' 선언을 참조하십시오.
+  
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(65,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(65,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(66,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(66,12): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(72,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(72,12):
+      서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(73,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\OFFICE\Desktop\game1\Class7th (Type Conversion)\Sorece.c(73,12):
+      서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+  
