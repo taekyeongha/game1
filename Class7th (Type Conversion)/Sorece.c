@@ -1,80 +1,132 @@
 ﻿#include <stdio.h>
 
+
 void main()
 {
-#pragma region 주소 연산자
-    // 변수의 주소 값을 반환하는 연산자입니다. 
+#pragma region 산술 연산자
 
-    // int data = 10;
+	//int storage1 = 0;
+	//int storage2 = 0;
+	//int storage3 = 0;
+	//int storage4 = 0;
+	//int storage5 = 0;
 
-    // printf("data 변수의 주소: %p\n", &data);
+	//int x = 10;
+	//int y = 5;
+	//int z = 1;
+	//int w = 10;
 
-    // 데이터의 주소는 해당 데이터가 저장된 메모리의 시작 주소를
-    // 의미하며, 메모리 공간은 1 byte의 크기로 나누어 표현합니다.
+	//const int constant = 5;
+
+	// 1. 변수= 변수 + 변수
+	//storage1 = x + y;
+
+	// 2. 변수 = 변수 - 리터럴 상수
+	//storage2 = z - 1;
+
+	// 3. 변수 = 변수 * 심볼릭 상수
+	//storage3 = w * constant;
+
+	// 4. 변수 = 리터럴 상수 / 리터럴 상수
+	//storage4 = 20 / 5;
+
+	// 5. 변수 = 심볼릭 상수 % 리터럴 상수
+	//storage5 = constant % 5;
+
+	//printf("stotage1의 값 : %d\n", storage1);
+	//printf("stotage2의 값 : %d\n", storage2);
+	//printf("stotage3의 값 : %d\n", storage3);
+	//printf("stotage4의 값 : %d\n", storage4);
+	//printf("stotage5의 값 : %d\n", storage5);
+
 #pragma endregion
 
-#pragma region scanf_s 함수
-    // 표준 입력 함수로, 여러 종류의 데이터를 다양한 서식에
-    // 맞추어 입력해주는 함수입니다.
+#pragma region 비트
+	// 데이터를 나타내는 최소의 단위이며, 0 또는 1의 조합으로
+	// 논리 계산을 수행하는 단위입니다.
 
-    int x = 0;
+#pragma region (10)진수를 2진수로 변화하는 과정
+	// 10진수를 1이 될때까지 계속 2로 나누어 준 다음
+	// 나눈 위치의 나머지 값을 아래에서 위로 순서대로 정렬합니다.
 
-    // printf("x 변수의 값을 입력 : ");
+	// ex) 23 - > 10111
 
-    // 표준 입력 함수는 입력을 수행할 때까지 다음 작업으로
-    // 넘어갈 수 없습니다.
-
-    // scanf_s("%d", &x);
-
-    // 버퍼는 데이터가 이동할 때 임시로 저장되는 공간이며,
-    // 서식 지정자에 따라 입력할 수 있는 데이터의 범위도 결정됩니다.
-
-    // printf("x 변수의 값 : %d\n", x);
-
-    // 표준 입력 함수로 데이터를 입력하게 되면 버퍼에
-    // 데이터를 보관하였다가 입력하는 순간 버퍼 안의
-    // 내용을 프로그램에 전송합니다.
 #pragma endregion
 
-#pragma region 포인터
-    // 메모리의 주소 값을 저장할 수 있는 변수입니다.
+#pragma region (2)진수를 (10)진수로 변환하는 과정
+	// 1byte에 2진수로 저장된 값을 2의 제곱으로 나타냅니다.
 
-    int storage = 10; 
-
-    int variable = 20;
-
-    int* pointer = &storage;
-
-    // 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로,
-    // 포인터가 가리키는 메모리의 자료형을 선언해주어야 합니다.
-
-    printf("storage 변수의 주소 : %p\n" , &storage);
-    printf("pointer 변수의 값 : %p\n", pointer);
-    printf("pointer 변수의 주소 : %p\n\n", &pointer);
-
-    *pointer = 99;
-
-    printf("storage 변수의 값 : %d\n", storage);
-    printf("pointer 변수의 가리키는 값 : %d\n", pointer);
-
-    pointer = &variable;
-
-    int variable = 100;
-
-    printf("variable 변수의 값 : %d\n", variable);
-    printf("variable 변수의 값 : %d\n", pointer);
-    printf("pointer 변수가 가리키는 값 %d\n\n", pointer);
-
-    // 포인터 변수도 자신의 메모리 공간을 가지고 있으며,
-    // 포인터 변수에 변수의 주소를 저장하게 되면 해당 변수의
-    // 시작 주소를 가리키게 됩니다.
-
-    printf("int 자료형의 크기 ; %u\n", sizeof(int));
-    printf("pointer 변수의 크기 : %u\n", sizeof(pointer));
-
-    // 포인터 변수의 크기는 중앙 처리 장치가 한 번에 처리할 수
-    // 있는 크기로 정해지며, 한 번에 처리할 수 있는 크기는
-    // 운영체제에 따라 크기가 결정됩니다.
+	// 각각의 비트에 1이 있다면 1과 2의 제곱의 위치를 계산한
+	// 다음 각각의 비트를 모두 더하여 10진수로 나타냅니다.
 #pragma endregion
 
+#pragma region 비트 연산자
+	// 비트 단위로 논리 연산을 수행하기 위해 사용하는 연산자입니다.
+
+#pragma region AND 연산자
+	// 두 개의 피연산자가 모두 1이면 1을 반환하는 연산자입니다.
+
+	// int storage1 = 10; // 0000 1010
+	// int storage2 = 6;  // 0000 0110
+	//                    // ---------
+	//                    // 0000 0010
+	//
+	// printf("storage1 & storage2 = %d\n", storage1 & storage2);
+#pragma endregion
+
+#pragma region OR 연산자
+	// 두 개의 피연산자 중 하나라도 1이 있다면 1을 반환하는 연산자입니다.
+
+	// int storage3 = 8;  // 0000 1000
+	// int storage4 = 5;  // 0000 1100
+	//                    // ---------
+	//                    // 0000 1100
+	//
+	// printf("storage3 | storage4 = %d\n", storage3 | storage4);
+#pragma endregion
+
+#pragma region XOR  연산자
+	// 두 개의 피연사자가 서로 같으면 0을 반환하고, 서로 다르면
+	// 1을 반환하는 연산자입니다.
+
+	//int storage5 = 6;  // 0000 0110
+	//int storage6 = 15; // 0000 1111
+	//                   // ---------
+	//                   // 0000 1001
+
+	//printf("storage5 ^ storage6 = %d\n", storage5 ^ storage6);
+#pragma endregion
+
+#pragma region NOT 연산자
+	// 하나의 비트를 반전시키는 연산자입니다.
+
+	//int storage7 = 13; // 0000 1101
+	//                   // ---------
+	//                   // 1111 0010
+	//
+	// printf("~stotage7 = %d\n",~storage7);
+
+	// 첫 번째 비트는 부호를 나타내며, 첫 번째 비트에
+	// 1이 있다면 값은 음수입니다.
+#pragma endregion
+
+
+#pragma endregion
+
+#pragma region 시프트 연산자
+// 비트를 특정한 위치로 정해진 수만큼 이동시키는 연산자입니다.
+//
+//int data = 5; // 0000 0101
+//
+//int shift = data << 2; // 0001 0100
+//
+//printf("shift 변수의 값 : %d\n", shift);
+//
+//shift = data >> 1; // 0000 0010
+//
+//printf("shift 변수의 값 : %d\n", shift);
+
+#pragma endregion
+
+#pragma endregion
 }
