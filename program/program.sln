@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th (Array)", "..\Clas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Function)", "..\Class10th (Function)\Class10th (Function).vcxproj", "{C727720A-2514-492E-9B76-5A9B1F139C41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11Th (storage)", "..\Class11Th a (storage)\Class11Th a (storage).vcxproj", "{777A7384-3328-4786-86FF-4EC7E75B8453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{C727720A-2514-492E-9B76-5A9B1F139C41}.Release|x64.Build.0 = Release|x64
 		{C727720A-2514-492E-9B76-5A9B1F139C41}.Release|x86.ActiveCfg = Release|Win32
 		{C727720A-2514-492E-9B76-5A9B1F139C41}.Release|x86.Build.0 = Release|Win32
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Debug|x64.ActiveCfg = Debug|x64
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Debug|x64.Build.0 = Debug|x64
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Debug|x86.ActiveCfg = Debug|Win32
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Debug|x86.Build.0 = Debug|Win32
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Release|x64.ActiveCfg = Release|x64
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Release|x64.Build.0 = Release|x64
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Release|x86.ActiveCfg = Release|Win32
+		{777A7384-3328-4786-86FF-4EC7E75B8453}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
